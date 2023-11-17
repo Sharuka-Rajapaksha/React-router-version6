@@ -8,6 +8,8 @@ function App() {
   return (
     <div className="App">
       
+      <h1>Static Content</h1>
+
         <BrowserRouter>
           <Routes>
             <Route path = "/" element={<Home/>}> </Route>
